@@ -1,0 +1,18 @@
+﻿<Window x:Class="MultipleWindows.Views.PersonEditView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MultipleWindows.Views"
+        mc:Ignorable="d"
+        Title="PersonEditView" Height="300" Width="400">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="211,175,0,0"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="92,175,0,0"/>
+        <Label Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,78,0,0"/>
+        <Label Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="54,121,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="166,82,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="166,125,0,0"/>
+
+    </Grid>
+</Window>
